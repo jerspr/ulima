@@ -1,0 +1,39 @@
+/**/
+body{font-family: 'Exo', sans-serif;font-size: 12px;}
+.clear-fix:after,.clear-fix:before{content: " ";display: table}
+.clear-fix:after{clear: both}
+.reset-ul{list-style: none;padding-left: 0;margin-bottom: 0;}
+.left{float: left;}
+.right{float: right;}
+/**/
+.container{width: 1225px;}
+/*Footer*/
+.nav-footer{background: #000000;padding: 10px 0;}
+.logo-footer{padding-right: 10px;border-right: 1px solid #5A5A5A;margin-right: 12px;}
+.logo-footer img{width: 100px;}
+.cnt-logo-footer{margin-right: 60px;}
+.cnt-logo-footer>h3{margin-top: 11px;margin-bottom: 0;color: #fff;font-size: 17px;font-weight: 600;}
+.nav-footer-l{margin-top: 7px;}
+.nav-footer-l ul li{float: left;margin-right: 38px;}
+.nav-footer-l ul li:last-child{margin-right: 0;}
+.nav-footer-l ul li a{color: #fff;font-size: 16px;font-weight: 400;}
+.nav-footer-l ul li a:active, .nav-footer-l ul li a:focus, .nav-footer-l ul li a:hover{text-decoration: none;}
+.nav-footer-l ul li a.active{font-weight: 700;}
+.cnt-info-footer{padding: 25px 0 20px;background: #292929;}
+.cnt-cont-social{padding: 0 12px 32px 12px;border-bottom: 1px solid #464646;margin-bottom: 20px;}
+h3.title-f{margin-top: 0;font-family: 'Roboto', sans-serif;font-weight: 400;font-size: 18px;color: #B2B2B2;margin-bottom: 15px;}
+.inner-cont{margin-right: 40px;}
+.inner-cont>a{font-size: 22px;color: #FFFFFF;font-weight: 400;font-family: 'Roboto', sans-serif;display: block;line-height: 100%;}
+.inner-cont>a:active, .inner-cont>a:focus, .inner-cont>a:hover{text-decoration: none;}
+.inner-social ul li{float: left;margin-right: 15px;}
+.inner-social ul li:last-child{margin-right: 0;}
+.inner-social ul li a{display: block;}
+.inner-social ul li a.i-fb{width: 21px;height: 22px;background: url(../img/i-fb.svg) no-repeat;background-size: 100% 100%;}
+.inner-social ul li a.i-tw{width: 26px;height: 22px;background: url(../img/i-tw.svg) no-repeat;background-size: 100% 100%;}
+.inner-social ul li a.i-yt{width: 26px;height: 18px;background: url(../img/i-yt.svg) no-repeat;background-size: 100% 100%;margin-top: 2px;}
+.inner-social ul li a.i-in{width: 22px;height: 22px;background: url(../img/i-in.svg) no-repeat;background-size: 100% 100%;}
+.inner-social ul li a.i-lk{width: 21px;height: 21px;background: url(../img/i-lk.svg) no-repeat;background-size: 100% 100%;}
+.cnt-copy-r{position: relative;min-height: 71px;}
+.cnt-copy-r>span{width: 71px;height: 71px;background: url(../img/logo-ulima.png) no-repeat;background-size: 100% 100%;position: absolute;left: 10px;top: 0;}
+.cnt-copy-r p{padding-left: 100px;margin-bottom: 5px;color: #929292;font-size: 14px;font-family: Arial;}
+.cnt-copy-r p:first-child{margin-top: 12px;}
