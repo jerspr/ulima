@@ -1,12 +1,67 @@
 /**/
-body{font-family: 'Exo', sans-serif;font-size: 12px;}
+body{font-family: 'Exo', sans-serif;font-size: 12px;background: #F2F2F2;}
 .clear-fix:after,.clear-fix:before{content: " ";display: table}
 .clear-fix:after{clear: both}
 .reset-ul{list-style: none;padding-left: 0;margin-bottom: 0;}
 .left{float: left;}
 .right{float: right;}
-/**/
+/*Contenido*/
 .container{width: 1225px;}
+.wrapper{margin-bottom: 30px;}
+.b-perfil{min-height: 85px;margin-bottom: 15px;position: relative;padding-left: 105px;}
+.panel-bloque.u-egresados{padding: 17px 17px 12px 17px;}
+.u-egresados{margin-bottom: 20px;min-height: 205px;}
+.u-egresados p{margin-bottom: 0;font-size: 15px;color: #58585A;font-family: 'Roboto', sans-serif;font-weight: 400;line-height: 110%;height: 54px;overflow: hidden;}
+.b-perfil figure{width: 85px;height: 85px;position: absolute;top:0;left:0;border-radius: 50%;overflow: hidden;}
+.b-perfil figure a{display: block;}
+.info-perfil h2{margin-top: 0;margin-bottom: 8px;}
+.info-perfil h2 a{display: block;line-height: 130%;font-weight: 700;font-size: 18px;color: #FF6C0E;}
+.info-perfil h4{margin-bottom: 5px;margin-top: 0;color: #404040;font-weight: 700;font-size: 14px;}
+.info-perfil>span{font-size: 13px;color: #7E7E7E;font-weight: 400;line-height: 120%;}
+.inner-egresados>.row{margin-left: -10px;margin-right: -10px;}
+.inner-egresados>.row>.col-md-6{padding-left: 10px;padding-right: 10px;}
+.cnt-ver-mas{text-align: center;margin-top: 10px;}
+.btn-v{height: 55px;border-radius: 4px;background: #009CFD;display: inline-block;line-height: 55px;font-size: 18px;color: #fff;font-weight: 400;}
+.cnt-ver-mas .btn-v{width: 330px;}
+.cnt-ver-mas .btn-v:active, .cnt-ver-mas .btn-v:focus, .cnt-ver-mas .btn-v:hover{opacity: 0.8;text-decoration: none;color: #fff;}
+/*Perfil*/
+.bloque-perfil{padding: 20px 0;background: #E5E5E5;}
+.perfil-p{position: relative;min-height: 124px;}
+.perfil-p figure{border:4px solid #fff;width: 124px;height: 124px;border-radius: 50%;overflow: hidden;position: absolute;top: 0;left: 0;}
+.perfil-p figure img{width: 100%;}
+.t-perfil{padding-left: 145px;}
+.t-perfil h3{margin-top: 10px;margin-bottom: 10px;font-size: 25px;color: #FF6C0E;font-weight: 700;line-height: 120%;}
+.t-perfil ul li{float: left;margin-right: 10px;}
+.t-perfil ul li:last-child{margin-right: 0;}
+.t-perfil ul li a{width: 100px;height: 32px;line-height: 32px;text-align: center;font-size: 14px;color: #fff;font-weight: 700;border-radius: 4px;display: block;}
+.t-perfil ul li a.lk{background: #4875B4;}
+.t-perfil ul li a.tw{background: #33CCFF;}
+.t-perfil ul li a:active, .t-perfil ul li a:focus, .t-perfil ul li a:hover{opacity: 0.8;text-decoration: none;}
+.body-biografia{padding: 22px 0;background: #F2F2F2;}
+.panel-bloque.i-ficha-t{padding: 15px;}
+.i-ficha-t ul li h4{font-size: 13px;color: #9B9B9B;font-family: 'Roboto', sans-serif;font-weight: 400;margin-top: 0;margin-bottom: 5px;}
+.i-ficha-t ul li h5{margin-top: 0;font-size: 15px;color: #434343;font-family: 'Roboto', sans-serif;font-weight: 700;margin-bottom: 10px;line-height: 130%;}
+.inner-bio-tra .panel-bloque{padding: 20px;margin-bottom: 25px;}
+.inner-bio-tra .panel-bloque p{font-size: 14px;color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;line-height: 140%;margin-bottom: 25px;}
+.inner-bio-tra .panel-bloque p:last-child{margin-bottom: 0;}
+.list-tag .panel-bloque{padding: 10px!important;}
+.list-tag a{color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;font-size: 15px;margin-right: 10px;margin-bottom: 10px;}
+/*sidebar perfil*/
+.inner-entrevista{margin-bottom: 15px;}
+.inner-egresados{}
+.panel-bloque.inner-list-en{padding: 15px;margin-bottom: 15px;}
+.inner-list-en .b-perfil{margin-bottom: 0;}
+.cnt-list-en .cnt-ver-mas a{width: 100%;}
+/*Sidebar*/
+h3.title-bloque{margin-top: 0;margin-bottom: 15px;color: #989898;font-size: 25px;font-weight: 300;}
+.panel-bloque{padding: 10px;background: #fff;border-radius: 4px;box-shadow: 0 3px 6px rgba(0,0,0,0.16);}
+.inner-list-ne{margin-bottom: 15px;}
+.inner-list-ne figure{float: left;width: 104px;margin-right: 12px;border-radius: 4px;overflow: hidden;}
+.inner-list-ne figure a{display: block;}
+.inner-list-ne figure a img{width: 100%;}
+.inner-list-ne h2{margin-top: 0;margin-bottom: 10px;height: 44px;overflow: hidden;}
+.inner-list-ne h2 a{display: block;font-size: 16px;font-weight: 700;color: #434343;line-height: 140%;}
+.inner-list-ne p{margin-bottom: 0;font-size: 14px;color: #939393;font-family: 'Roboto', sans-serif;font-weight: 400;}
 /*Footer*/
 .nav-footer{background: #000000;padding: 10px 0;}
 .logo-footer{padding-right: 10px;border-right: 1px solid #5A5A5A;margin-right: 12px;}
