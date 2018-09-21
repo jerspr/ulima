@@ -9,6 +9,21 @@ body{font-family: 'Exo', sans-serif;font-size: 12px;background: #F2F2F2;}
 .right{float: right;}
 html.menuActive, body.menuActive{height: 100%;}
 .menuActive #main{overflow: auto;height: 100%;}
+/*Header*/
+header{height: 70px;background: #0B0B0B;}
+.inner-nav-header{margin-top: 8px;}
+.logo-header{padding-right: 10px;border-right: 1px solid #fff;margin-right: 15px;}
+.logo-header img{width: 152px;}
+.cnt-logo-header>h3{margin-top: 18px;margin-bottom: 0;color: #fff;font-size: 22px;font-weight: 600;}
+.nav-header-l{margin-top: 10px;}
+.nav-header-l ul li{float: left;margin-right: 50px;}
+.nav-header-l ul li:last-child{margin-right: 0;}
+.nav-header-l ul li a{font-size: 16px;color: #FFFFFF;font-weight: 400;display: block;line-height: 36px;}
+.nav-header-l ul li a:active, .nav-header-l ul li a:focus, .nav-header-l ul li a:hover{text-decoration: none;}
+.inner-nav-header .form-search{margin-left: 45px;}
+.inner-nav-header .form-search input{height: 36px;border:1px solid #FFFFFF;background: transparent;padding: 10px 36px 10px 10px;color: #fff;font-size: 12px;width: 250px;}
+.inner-nav-header .form-search button{width: 36px;height: 36px;}
+.inner-nav-header .form-search button span{background: url(../img/ico-search-h.svg) no-repeat;background-size: 100% 100%;}
 /*Menu responsive*/
 .sidepanel{height: 100%;width: 0;position: fixed;z-index: 1001;top: 0;left: 0;background-color: #111;overflow-x: hidden;padding-top: 60px;transition: 0.5s;overflow: auto;}
 .sidepanel a{padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
@@ -42,6 +57,34 @@ html.menuActive, body.menuActive{height: 100%;}
 .btn-v{height: 55px;border-radius: 4px;background: #009CFD;display: inline-block;line-height: 55px;font-size: 18px;color: #fff;font-weight: 400;}
 .cnt-ver-mas .btn-v{width: 330px;}
 .cnt-ver-mas .btn-v:active, .cnt-ver-mas .btn-v:focus, .cnt-ver-mas .btn-v:hover{opacity: 0.8;text-decoration: none;color: #fff;}
+/*Nota*/
+.body-note{padding: 30px 0;}
+.inner-note>h1{color: #000000;font-size: 32px;font-weight: 700;margin-top: 0;margin-bottom: 10px;line-height: 120%;}
+.inner-note>time{display: block;margin-bottom: 13px;font-size: 13px;color: #939393;font-weight: 300;font-family: 'Roboto', sans-serif;}
+.cnt-multimedia{margin-bottom: 30px;}
+.cnt-multimedia figure img{width: 100%;}
+.inner-note-body{position: relative;padding-left: 100px;}
+.info-note-b p{font-size: 15px;color: #000000;font-family: 'Roboto', sans-serif;font-weight: 400;line-height: 140%;margin-bottom: 30px;}
+.social-note{position: absolute;left: 20px;top: 0;}
+.social-note ul li{margin-bottom: 10px;}
+.social-note ul li a{width: 40px;height: 40px;display: block;}
+.social-note ul li a.n-fb{background: url(../img/n-fb.svg) no-repeat;background-size: 100% 100%;}
+.social-note ul li a.n-tw{background: url(../img/n-tw.svg) no-repeat;background-size: 100% 100%;}
+.social-note ul li a.n-lk{background: url(../img/n-lk.svg) no-repeat;background-size: 100% 100%;}
+.social-note ul li a.n-gp{background: url(../img/n-gp.svg) no-repeat;background-size: 100% 100%;}
+.cnt-tags{margin-bottom: 20px;}
+.cnt-relacionados{}
+.item-rel{text-align: center;}
+.item-rel figure{width: 85px;height: 85px;display: inline-block;vertical-align: top;border-radius: 50%;overflow: hidden;margin-bottom: 8px;}
+.item-rel figure a{display: block;}
+.item-rel figure a img{width: 100%;}
+.item-rel h2{margin-top: 0;margin-bottom: 8px;}
+.item-rel h2 a{color: #FF6C0E;font-size: 18px;font-weight: 700;line-height: 130%;display: block;}
+.item-rel h4{margin-top: 0;margin-bottom: 8px;font-size: 14px;color: #7E7E7E;font-weight: 700;}
+.item-rel>span{display: block;font-size: 13px;color: #7E7E7E;font-weight: 400;}
+.inner-relacionados>.row{margin-left: -10px;margin-right: -10px;}
+.inner-relacionados>.row>.col-md-4{padding-left: 10px;padding-right: 10px;}
+.inner-noticias{margin-bottom: 15px;}
 /*Perfil*/
 .bloque-perfil{padding: 20px 0;background: #E5E5E5;}
 .perfil-p{position: relative;min-height: 124px;}
@@ -63,7 +106,7 @@ html.menuActive, body.menuActive{height: 100%;}
 .inner-bio-tra .panel-bloque p{font-size: 14px;color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;line-height: 140%;margin-bottom: 25px;}
 .inner-bio-tra .panel-bloque p:last-child{margin-bottom: 0;}
 .list-tag .panel-bloque{padding: 10px!important;}
-.list-tag a{color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;font-size: 15px;margin-right: 10px;margin-bottom: 10px;}
+.list-tag a{color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;font-size: 15px;margin-right: 10px;margin-bottom: 10px;display: inline-block;vertical-align: top;}
 /*sidebar perfil*/
 .inner-entrevista{margin-bottom: 15px;}
 .inner-egresados{}
@@ -80,6 +123,20 @@ h3.title-bloque{margin-top: 0;margin-bottom: 15px;color: #989898;font-size: 25px
 .inner-list-ne h2{margin-top: 0;margin-bottom: 10px;height: 44px;overflow: hidden;}
 .inner-list-ne h2 a{display: block;font-size: 16px;font-weight: 700;color: #434343;line-height: 140%;}
 .inner-list-ne p{margin-bottom: 0;font-size: 14px;color: #939393;font-family: 'Roboto', sans-serif;font-weight: 400;}
+/*Noticias*/
+.cnt-bloque-two{padding: 30px 0;}
+.cnt-type-two{padding: 0 100px;}
+.inner-more-noticias .inner-list-ne h2 a{font-size: 18px;}
+.first-item figure{width: 305px;}
+.inner-more-noticias .inner-list-ne h2{height: 49px;}
+.inner-more-noticias .inner-list-ne.first-item h2{height: 95px;margin-bottom: 30px;}
+.inner-list-ne.first-item h2 a{font-size: 26px;line-height: 120%;}
+/*seacrh*/
+.cnt-search{box-shadow: 0 3px 6px rgba(0,0,0,0.16);border-radius: 4px;background: #E6E6E6;padding: 20px;margin-bottom: 20px;}
+.form-search{position: relative;}
+.form-search input{outline: 0;border:0;height: 50px;background: #fff;width: 100%;border-radius: 4px;padding: 10px 50px 10px 20px;font-size: 14px;color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;}
+.form-search button{position: absolute;top: 0;right: 0;width: 50px;height: 50px;outline: 0;background: transparent;border:0;padding: 0;text-align: center;}
+.form-search button span{width: 15px;height: 15px;display: inline-block;background: url(../img/ico-search.svg) no-repeat;background-size: 100% 100%;vertical-align: middle;}
 /*Footer*/
 .nav-footer{background: #000000;padding: 10px 0;}
 .logo-footer{padding-right: 10px;border-right: 1px solid #5A5A5A;margin-right: 12px;}

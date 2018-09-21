@@ -1,6 +1,8 @@
 var obj = {
 	init: function(){
-		obj.mainSlider();
+		if($(".main-slider").length){
+			obj.mainSlider();
+		}
 		obj.menuResponsive();
 	},
 	menuResponsive: function(){
