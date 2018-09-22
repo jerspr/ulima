@@ -167,3 +167,39 @@ h3.title-f{margin-top: 0;font-family: 'Roboto', sans-serif;font-weight: 400;font
 .cnt-copy-r>span{width: 71px;height: 71px;background: url(../img/logo-ulima.png) no-repeat;background-size: 100% 100%;position: absolute;left: 10px;top: 0;}
 .cnt-copy-r p{padding-left: 100px;margin-bottom: 5px;color: #929292;font-size: 14px;font-family: Arial;}
 .cnt-copy-r p:first-child{margin-top: 12px;}
+/*Responsive*/
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+	
+}
+@media (max-width: 480px){
+	.container{width: auto;}
+	.cnt-logo-footer{margin-right: 0;}
+	.nav-footer-l{display: none;}
+	.cnt-cont-social{padding-left: 0;}
+	.inner-cont{margin-bottom: 20px;}
+	h3.title-f{font-size: 16px;margin-bottom: 10px;}
+	.inner-cont>a{font-size: 18px;}
+	.cnt-copy-r p{font-size: 13px;}
+	.cnt-copy-r p:first-child{margin-top: 0;}
+	.u-egresados p{height: auto;line-height: 120%;}
+	.u-egresados{min-height: auto;}
+	.cnt-body{margin-bottom: 30px;}
+	h3.title-bloque{font-size: 22px;}
+	.inner-note>h1{font-size: 22px;}
+	.cnt-multimedia{margin-left: -15px;margin-right: -15px;}
+	.inner-note-body{padding-left: 0;}
+	.inner-note-body .social-note{display: none;}
+	.list-tag .panel-bloque{font-size: 8px;}
+	.item-rel{margin-bottom: 15px;}
+	.inner-note{margin-bottom: 15px;}
+	header{height: 60px;}
+}
+@media (max-width: 370px){
+	
+}
