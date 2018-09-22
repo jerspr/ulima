@@ -23,7 +23,7 @@ var obj = {
 		$('.main-slider').owlCarousel({
             loop: true,
             nav:true,
-            //autoplay: true,
+            autoplay: true,
             autoplayTimeout: 5000,
             animateOut: 'fadeOut',
             animateIn: 'fadeIn',

@@ -11,10 +11,24 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-interna">
+	<!--Menu movil-->
+	<div class="bg-overlay"></div>
+	<div id="navPanel" class="sidepanel">
+	  	<a id="closeNav" href="#" class="closebtn">&times;</a>
+	  	<div class="cnt-nav-movil">
+	  		<a href="#">Inicio</a>
+		  	<a href="#">Egresados</a>
+		  	<a href="#">Noticias</a>
+	  	</div>
+	</div>
+	<!--End Menu-->
 	<div id="main">
 		<header>
 			<div class="container">
 				<div class="clear-fix inner-nav-header">
+					<div id="openNav" class="icoMenu">
+						<span></span>
+					</div>
 					<div class="left cnt-logo-header">
 						<a href="#" class="left logo-header">
 							<img src="img/logo-header.png" alt="">
@@ -345,6 +359,7 @@
 		</footer>
 	</div>
 	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
