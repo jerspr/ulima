@@ -246,6 +246,7 @@ h3.title-f{margin-top: 0;font-family: 'Roboto', sans-serif;font-weight: 400;font
 	.inner-more-noticias .inner-list-ne.first-item h2 a{font-size: 20px;}
 	.nav-footer-l{display: none;}
 	.home .cnt-logo-header>h3{margin-top: 13px;}
+	.inner-ficha{margin-bottom: 30px;}
 }
 @media (max-width: 480px){
 	.cnt-logo-footer{margin-right: 0;}
