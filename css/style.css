@@ -33,10 +33,21 @@ header{height: 70px;background: #0B0B0B;}
 .home .cnt-logo-header>h3{margin-top: 14px;}
 /*Menu responsive*/
 .sidepanel{height: 100%;width: 0;position: fixed;z-index: 1001;top: 0;left: 0;background-color: #111;overflow-x: hidden;padding-top: 60px;transition: 0.5s;overflow: auto;}
-.sidepanel a{padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;}
+.sidepanel a{padding: 0 35px 20px 35px;text-decoration: none;font-size: 20px;color: #fff;display: block;transition: 0.3s;}
+.sidepanel a.active{font-weight: 700;}
 .cnt-nav-movil{height: auto;}
 .bg-overlay{position: fixed;z-index: 1000;width: 100%;height: 100%;background: rgba(0, 0, 0, 0.3);opacity: 0;transition: opacity 0.3s ease 0s, transform 0s ease 0.3s;transform: translate3d(100%, 0px, 0px);}
 .bg-overlay.activeMenu{opacity: 1;transition: opacity 0.3s ease 0s;transform: inherit;}
+.cnt-tab-search .nav-tabs{padding: 0 35px;border-bottom: 1px solid #525252;min-width: 300px;}
+.cnt-tab-search .nav-tabs>li{float: left;width: 33.333333%;text-align: center;}
+.cnt-tab-search .nav-tabs>li>a{font-size: 14px;color: #989898;font-family: 'Roboto', sans-serif;font-weight: 700;padding: 0;height: 34px;line-height: 34px;margin: 0;border: 0;}
+.cnt-tab-search .nav-tabs>li.active>a, .cnt-tab-search .nav-tabs>li.active>a:focus, .cnt-tab-search .nav-tabs>li.active>a:hover{background: transparent;border-bottom: 3px solid #1592E6;border-top: 0;color: #989898;border-left: 0;border-right: 0}
+.cnt-tab-search .tab-content{padding: 0 35px;}
+.cnt-tab-search .form-search{margin-top: 15px;margin-bottom: 35px;}
+.cnt-tab-search .form-search input::-webkit-input-placeholder{font-style: italic;}
+.cnt-tab-search .form-search input::-moz-placeholder{font-style: italic;}
+.cnt-tab-search .form-search input:-ms-input-placeholder{font-style: italic;}
+.cnt-tab-search .form-search input:-moz-placeholder{font-style: italic;}
 /*Slider main*/
 .slide-single{height: 570px;background-size: cover;background-position: center center;}
 .main-slider .owl-nav .owl-prev, .main-slider .owl-nav .owl-next{border:0;outline: 0;width: 20px;height: 40px;position: absolute;top: 50%;margin-top: -20px;}
@@ -76,6 +87,17 @@ header{height: 70px;background: #0B0B0B;}
 .cnt-ver-mas .btn-v{width: 330px;}
 .cnt-ver-mas .btn-v:active, .cnt-ver-mas .btn-v:focus, .cnt-ver-mas .btn-v:hover{opacity: 0.8;text-decoration: none;color: #fff;}
 .home .wrapper{padding: 28px 0;}
+.panel-bloque.inner-search-egresados{margin-bottom: 20px;background: #E7E7E8;padding: 0;}
+.inner-search-egresados .tab-content{padding: 15px 20px;}
+.inner-search-egresados input::-webkit-input-placeholder{font-style: italic;}
+.inner-search-egresados input::-moz-placeholder{font-style: italic;}
+.inner-search-egresados input:-ms-input-placeholder{font-style: italic;}
+.inner-search-egresados input:-moz-placeholder{font-style: italic;}
+.inner-search-egresados .nav-tabs{padding: 0 40px;border-bottom: 1px solid #D0D0D0;}
+.inner-search-egresados .nav-tabs>li>a{margin: 0;padding: 0;height: 42px;line-height: 42px;color: #585858;font-size: 15px;font-family: 'Roboto', sans-serif;font-weight: 400;border:0;}
+.inner-search-egresados .nav-tabs>li>a:hover{background: transparent;border:0;}
+.inner-search-egresados .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background: transparent;border: 0;border-bottom: 2px solid #1592E6;color: #1592E6;}
+.inner-search-egresados>ul>li{float: left;width: 33.3333333%;text-align: center;}
 /*Nota*/
 .body-note{padding: 30px 0;}
 .inner-note>h1{color: #000000;font-size: 32px;font-weight: 700;margin-top: 0;margin-bottom: 10px;line-height: 120%;}
@@ -156,6 +178,7 @@ h3.title-bloque{margin-top: 0;margin-bottom: 15px;color: #989898;font-size: 25px
 .form-search input{outline: 0;border:0;height: 50px;background: #fff;width: 100%;border-radius: 4px;padding: 10px 50px 10px 20px;font-size: 14px;color: #434343;font-family: 'Roboto', sans-serif;font-weight: 400;}
 .form-search button{position: absolute;top: 0;right: 0;width: 50px;height: 50px;outline: 0;background: transparent;border:0;padding: 0;text-align: center;}
 .form-search button span{width: 15px;height: 15px;display: inline-block;background: url(../img/ico-search.svg) no-repeat;background-size: 100% 100%;vertical-align: middle;}
+.closebtn{width: 13px;height: 13px;background: url(../img/ico-close.svg) no-repeat;background-size: 100% 100%;position: absolute;left: 20px;top: 22px;padding: 0!important;text-indent: -9999999px;}
 /*Footer*/
 .nav-footer{background: #000000;padding: 10px 0;}
 .logo-footer{padding-right: 10px;border-right: 1px solid #5A5A5A;margin-right: 12px;}
@@ -267,6 +290,7 @@ h3.title-f{margin-top: 0;font-family: 'Roboto', sans-serif;font-weight: 400;font
 	.home .cnt-logo-header>h3{width: 115px;}
 	.inner-info-s h2 a{font-size: 20px;line-height: 130%;}
 	.inner-info-s p{font-size: 14px;}
+	.inner-search-egresados .nav-tabs{padding: 0 20px;}
 }
 @media (max-width: 370px){
 	

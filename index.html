@@ -15,8 +15,37 @@
 	<div class="bg-overlay"></div>
 	<div id="navPanel" class="sidepanel">
 	  	<a id="closeNav" href="#" class="closebtn">&times;</a>
+	  	<div class="clear-fix cnt-tab-search">
+	  		<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#tNombre" aria-controls="tNombre" role="tab" data-toggle="tab">Por nombre</a></li>
+			    <li role="presentation"><a href="#tCarrera" aria-controls="tCarrera" role="tab" data-toggle="tab">Por carrera</a></li>
+			    <li role="presentation"><a href="#tMaestria" aria-controls="tMaestria" role="tab" data-toggle="tab">Por maestría</a></li>
+			</ul>
+			<!-- Tab panes -->
+			<div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="tNombre">
+			    	<form class="form-search" action="">
+						<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+						<button type="submit"><span></span></button>
+					</form>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="tCarrera">
+			    	<form class="form-search" action="">
+						<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+						<button type="submit"><span></span></button>
+					</form>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="tMaestria">
+			    	<form class="form-search" action="">
+						<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+						<button type="submit"><span></span></button>
+					</form>
+			    </div>
+			</div>
+	  	</div>
 	  	<div class="cnt-nav-movil">
-	  		<a href="#">Inicio</a>
+	  		<a href="#" class="active">Inicio</a>
 		  	<a href="#">Egresados</a>
 		  	<a href="#">Noticias</a>
 	  	</div>
@@ -83,6 +112,35 @@
 					<div class="col-md-8">
 						<div class="clear-fix cnt-body">
 							<h3 class="title-bloque">EGRESADOS NOTABLES</h3>
+							<div class="clear-fix panel-bloque inner-search-egresados">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+								    <li role="presentation" class="active"><a href="#tNombre" aria-controls="tNombre" role="tab" data-toggle="tab">Por nombre</a></li>
+								    <li role="presentation"><a href="#tCarrera" aria-controls="tCarrera" role="tab" data-toggle="tab">Por carrera</a></li>
+								    <li role="presentation"><a href="#tMaestria" aria-controls="tMaestria" role="tab" data-toggle="tab">Por maestría</a></li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content">
+								    <div role="tabpanel" class="tab-pane active" id="tNombre">
+								    	<form class="form-search" action="">
+											<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+											<button type="submit"><span></span></button>
+										</form>
+								    </div>
+								    <div role="tabpanel" class="tab-pane" id="tCarrera">
+								    	<form class="form-search" action="">
+											<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+											<button type="submit"><span></span></button>
+										</form>
+								    </div>
+								    <div role="tabpanel" class="tab-pane" id="tMaestria">
+								    	<form class="form-search" action="">
+											<input type="text" class="input-search" name="" placeholder="Encuentra aquí">
+											<button type="submit"><span></span></button>
+										</form>
+								    </div>
+								</div>
+							</div>
 							<div class="clear-fix inner-egresados">
 								<div class="row">
 									<div class="col-md-6">
@@ -409,6 +467,7 @@
 		</footer>
 	</div>
 	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
